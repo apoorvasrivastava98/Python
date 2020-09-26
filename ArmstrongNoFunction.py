@@ -1,5 +1,5 @@
 def armstrong(num):
-    i=num
+    n=num
     sum=0
     while (num > 0):
         r=num%10
