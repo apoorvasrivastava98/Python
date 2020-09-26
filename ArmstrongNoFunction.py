@@ -1,5 +1,5 @@
 def armstrong(num):
-    n=num
+    i=num
     sum=0
     while (num > 0):
         r=num%10
@@ -7,7 +7,7 @@ def armstrong(num):
         num=num/10
         print(sum)
         
-    if (n == sum):
+    if (n==sum):
         print(sum)
         print('Armstrong number')
     else:
@@ -17,3 +17,5 @@ def armstrong(num):
 
 num = int(input("Enter a number: "))
 armstrong(num)
+
+
