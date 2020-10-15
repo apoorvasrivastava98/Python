@@ -17,3 +17,4 @@ def armstrong(num):
 
 num = int(input("Enter a number: "))
 armstrong(num)
+1
